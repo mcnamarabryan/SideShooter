@@ -1,0 +1,119 @@
+﻿using System;
+using System.Drawing;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SideShooter
+{
+    public class ShipClass
+    {
+        public Point position;
+        public bool mUp, mDown, mLeft, mRight = false;
+        public bool firing = false;
+        public int fireTime = SideShooter.Main.frameCount;
+        public Point[] shotList = new Point[1000];
+        public int shotsAlive;
+        public int lives = 3;
+        
+
+        public ShipClass()
+        {
+            position = new Point(100, 220);
+
+            for (int i = 0; i < 1000; i++)
+            {
+                shotList[i] = new Point(0, 0);
+            }
+            shotsAlive = 0;
+            
+        }
+
+        public void FireLaser()
+        {
+            if (firing && (SideShooter.Main.frameCount - fireTime) > 3)
+            {
+                SideShooter.Main.SoundEngine.PlayLaser();
+                
+                shotList[shotsAlive] = new Point(position.X + 40, position.Y + 20);
+                shotsAlive++;
+                fireTime = SideShooter.Main.frameCount;
+            }
+        }
+
+        public void CheckShotsForLife()
+        {
+            int current = 0;
+            int sortingCurrent = 0;
+
+            while (current <= shotsAlive)
+            {
+                if (shotList[current].X > SideShooter.Main.TWindow.xMax)
+                {
+                    sortingCurrent = current;
+                    while (sortingCurrent < shotsAlive)
+                    {
+                        shotList[sortingCurrent] = shotList[sortingCurrent + 1];
+                        sortingCurrent++;
+                    }
+                    shotsAlive--;
+                }
+                current++; 
+            }
+        }
+
+        public void MoveShots()
+        {
+            int current = 0;
+
+            while (current < shotsAlive)
+            {
+                shotList[current].X += 18;
+                current++;
+            }
+        }
+
+        public void MoveShip()
+        {
+            if (mUp)
+            {
+                if (position.Y > 30)
+                {
+                    position.Y = position.Y - 8;
+                }
+            }
+            if (mDown)
+            {
+                if (position.Y < (SideShooter.Main.TWindow.yMax - 100))
+                {
+                    position.Y = position.Y + 8;
+                }
+            }
+            if (mRight)
+            {
+                if (position.X < 500)
+                {
+                    position.X = position.X + 10;
+                }
+                else
+                {
+                    position.X = 500;
+                }
+            }
+            if (mLeft)
+            {
+                if (position.X > 10)
+                {
+                    position.X = position.X - 6;
+                }
+                else
+                {
+                    position.X = 10;
+                }
+            }
+            
+
+        }
+    }
+}

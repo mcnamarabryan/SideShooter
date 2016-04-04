@@ -1,0 +1,51 @@
+﻿using System;
+using System.Drawing;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Media;
+
+namespace SideShooter
+{
+    public class IntakeAssets
+    {
+        public Image shipImage;
+        public Image enemyshipImage;
+
+        public SoundPlayer[] soundMachine = new SoundPlayer[32];
+        public int SoundCount=0;
+
+        public IntakeAssets()
+        {
+            IntakeImages();
+            IntakeSound();
+        }
+
+        public void IntakeImages()
+        {
+            shipImage = SideShooter.Properties.Resources.Spaceship_tut;
+            shipImage.RotateFlip(RotateFlipType.Rotate90FlipNone);
+
+            enemyshipImage = SideShooter.Properties.Resources.enemystarship;
+            enemyshipImage.RotateFlip(RotateFlipType.Rotate270FlipY);
+        }
+
+        public void IntakeSound()
+        {
+            SoundCount++;
+            soundMachine[SoundCount] = new SoundPlayer(SideShooter.Properties.Resources.wateranchor_action);
+            soundMachine[SoundCount].LoadAsync();
+
+
+            SoundCount++;
+            soundMachine[SoundCount] = new SoundPlayer(SideShooter.Properties.Resources.laser1);
+            soundMachine[SoundCount].LoadAsync();
+
+            SoundCount++;
+            soundMachine[SoundCount] = new SoundPlayer(SideShooter.Properties.Resources.Longshot);
+            soundMachine[SoundCount].LoadAsync();
+            
+        }
+    }
+}

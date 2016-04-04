@@ -1,0 +1,36 @@
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\bin\Debug\SideShooter.exe.config
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\bin\Debug\SideShooter.exe
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\bin\Debug\SideShooter.pdb
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.csprojResolveAssemblyReference.cache
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.Form1.resources
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.Properties.Resources.resources
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.csproj.GenerateResource.Cache
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.exe
+D:\Google Drive\Back to School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.pdb
+D:\Google Drive\School\Programming\SideShooter\SideShooter\bin\Debug\SideShooter.exe.config
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.exe
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.pdb
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.Main.resources
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.Properties.Resources.resources
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.csproj.GenerateResource.Cache
+D:\Google Drive\School\Programming\SideShooter\SideShooter\bin\Debug\SideShooter.exe
+D:\Google Drive\School\Programming\SideShooter\SideShooter\bin\Debug\SideShooter.pdb
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\Interop.WMPLib.dll
+D:\Google Drive\School\Programming\SideShooter\SideShooter\obj\Debug\SideShooter.csproj.ResolveComReference.cache
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\bin\Debug\SideShooter.exe.config
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\bin\Debug\SideShooter.exe
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\bin\Debug\SideShooter.pdb
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\obj\Debug\SideShooter.csprojResolveAssemblyReference.cache
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\obj\Debug\SideShooter.Main.resources
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\obj\Debug\SideShooter.Properties.Resources.resources
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\obj\Debug\SideShooter.csproj.GenerateResource.Cache
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\obj\Debug\SideShooter.exe
+C:\Users\mcnam_000\Desktop\SideShooter\SideShooter\obj\Debug\SideShooter.pdb
+D:\SideShooter\SideShooter\bin\Debug\SideShooter.exe.config
+D:\SideShooter\SideShooter\obj\Debug\SideShooter.exe
+D:\SideShooter\SideShooter\obj\Debug\SideShooter.pdb
+D:\SideShooter\SideShooter\bin\Debug\SideShooter.exe
+D:\SideShooter\SideShooter\bin\Debug\SideShooter.pdb
+D:\SideShooter\SideShooter\obj\Debug\SideShooter.Main.resources
+D:\SideShooter\SideShooter\obj\Debug\SideShooter.Properties.Resources.resources
+D:\SideShooter\SideShooter\obj\Debug\SideShooter.csproj.GenerateResource.Cache

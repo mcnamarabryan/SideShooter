@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SideShooter
+{
+    public class Sound
+    {
+        public Sound()
+        {
+
+        }
+
+        public void PlayLaser()
+        {
+            
+            SideShooter.Main.assets.soundMachine[2].Play();
+        }
+
+        public void PlayMusic()
+        {
+            
+            SideShooter.Main.assets.soundMachine[1].Play();
+        }
+    }
+}
